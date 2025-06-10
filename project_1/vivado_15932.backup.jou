@@ -1,0 +1,217 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun  4 14:47:33 2025
+# Process ID: 15932
+# Current directory: D:/FPGA/PE_array/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3260 D:\FPGA\PE_array\project_1\project_1.xpr
+# Log file: D:/FPGA/PE_array/project_1/vivado.log
+# Journal file: D:/FPGA/PE_array/project_1\vivado.jou
+# Running On: DESKTOP-HEQPM12, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34128 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/PE_array/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+update_module_reference design_1_PE_array_0_2
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+open_run synth_1 -name synth_1
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_Controller_1_0 design_1_PE_array_0_2
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_1_0
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_1_0
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_14
+endgroup
+set_property location {5 2018 613} [get_bd_cells axi_gpio_14]
+set_property CONFIG.C_ALL_OUTPUTS {1} [get_bd_cells axi_gpio_14]
+copy_bd_objs /  [get_bd_cells {axi_gpio_14}]
+connect_bd_net [get_bd_pins axi_gpio_14/gpio_io_o] [get_bd_pins Controller_1/tag_X]
+connect_bd_net [get_bd_pins axi_gpio_15/gpio_io_o] [get_bd_pins Controller_1/tag_Y]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_14/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_14/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (50 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (50 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_15/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_15/S_AXI]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run design_1_xbar_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_1_0
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+update_module_reference design_1_Controller_1_0
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+delete_bd_objs [get_bd_nets axi_gpio_15_gpio_io_o] [get_bd_nets axi_gpio_14_gpio_io_o] [get_bd_intf_nets ps7_0_axi_periph_M14_AXI] [get_bd_intf_nets ps7_0_axi_periph_M15_AXI] [get_bd_cells axi_gpio_15] [get_bd_cells axi_gpio_14]
+regenerate_bd_layout
+validate_bd_design
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run design_1_xbar_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+update_module_reference design_1_Controller_1_0
+update_module_reference design_1_PE_array_0_2 design_1_Controller_1_0
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v

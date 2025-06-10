@@ -1,0 +1,3 @@
+D:/FPGA/PE_array/Vitis/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+D:/FPGA/PE_array/Vitis/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+D:/FPGA/PE_array/Vitis/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir

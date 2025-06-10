@@ -1,0 +1,337 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Jun  2 09:07:26 2025
+# Process ID: 27156
+# Current directory: D:/FPGA/PE_array/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27320 D:\FPGA\PE_array\project_1\project_1.xpr
+# Log file: D:/FPGA/PE_array/project_1/vivado.log
+# Journal file: D:/FPGA/PE_array/project_1\vivado.jou
+# Running On: DESKTOP-HEQPM12, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34128 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/PE_array/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_PE_array_0_1 design_1_Controller_0_0
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_PE_array_0_1 design_1_Controller_0_0
+export_ip_user_files -of_objects  [get_files D:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_0_0 design_1_PE_array_0_1
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+regenerate_bd_layout
+validate_bd_design
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_PE_array_0_1 design_1_Controller_0_0
+update_module_reference design_1_Controller_0_0 design_1_PE_array_0_1
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_Controller_0_0
+update_module_reference design_1_Controller_0_0
+set_property location {4 1530 1180} [get_bd_cells Controller_0]
+regenerate_bd_layout
+update_module_reference design_1_Controller_0_0
+regenerate_bd_layout
+create_bd_cell -type module -reference Controller Controller_1
+delete_bd_objs [get_bd_nets Controller_0_set_LN] [get_bd_nets axi_gpio_1_gpio_io_o] [get_bd_nets axi_gpio_8_gpio_io_o] [get_bd_nets Controller_0_opsum_tag_X] [get_bd_nets Controller_0_ifmap_XID_scan_in] [get_bd_nets Controller_0_opsum_XID_scan_in] [get_bd_nets Controller_0_PE_config] [get_bd_nets Controller_0_filter_tag_Y] [get_bd_nets Controller_0_GLB_ifmap_valid] [get_bd_nets Controller_0_ipsum_tag_Y] [get_bd_nets Controller_0_filter_XID_scan_in] [get_bd_nets axi_gpio_6_gpio_io_o] [get_bd_nets axi_gpio_10_gpio_io_o] [get_bd_nets Controller_0_ifmap_YID_scan_in] [get_bd_nets Controller_0_ipsum_tag_X] [get_bd_nets Controller_0_ack] [get_bd_nets Controller_0_opsum_tag_Y] [get_bd_nets Controller_0_GLB_filter_valid] [get_bd_nets Controller_0_GLB_opsum_ready] [get_bd_nets axi_gpio_7_gpio_io_o] [get_bd_nets axi_gpio_11_gpio_io_o] [get_bd_nets Controller_0_set_XID] [get_bd_nets Controller_0_set_YID] [get_bd_nets Controller_0_LN_config_in] [get_bd_nets Controller_0_PE_en] [get_bd_nets Controller_0_ifmap_tag_X] [get_bd_nets Controller_0_ipsum_YID_scan_in] [get_bd_nets axi_gpio_12_gpio_io_o] [get_bd_nets axi_gpio_9_gpio_io_o] [get_bd_nets Controller_0_GLB_data_in] [get_bd_nets Controller_0_ipsum_XID_scan_in] [get_bd_nets Controller_0_filter_YID_scan_in] [get_bd_nets axi_gpio_0_gpio_io_o] [get_bd_nets Controller_0_opsum_YID_scan_in] [get_bd_nets Controller_0_ifmap_tag_Y] [get_bd_nets Controller_0_filter_tag_X] [get_bd_nets Controller_0_GLB_ipsum_valid] [get_bd_cells Controller_0]
+set_property location {4.5 1178 1100} [get_bd_cells Controller_1]
+update_compile_order -fileset sources_1
+connect_bd_net [get_bd_pins Controller_1/set_XID] [get_bd_pins PE_array_0/set_XID]
+connect_bd_net [get_bd_pins Controller_1/ifmap_XID_scan_in] [get_bd_pins PE_array_0/ifmap_XID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/filter_XID_scan_in] [get_bd_pins PE_array_0/filter_XID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/ipsum_XID_scan_in] [get_bd_pins PE_array_0/ipsum_XID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/opsum_XID_scan_in] [get_bd_pins PE_array_0/opsum_XID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/set_YID] [get_bd_pins PE_array_0/set_YID]
+connect_bd_net [get_bd_pins Controller_1/set_YID] [get_bd_pins PE_array_0/ifmap_YID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/ifmap_YID_scan_in] [get_bd_pins PE_array_0/filter_YID_scan_in]
+delete_bd_objs [get_bd_nets Controller_1_set_YID]
+delete_bd_objs [get_bd_nets Controller_1_ifmap_YID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/set_YID] [get_bd_pins PE_array_0/set_YID]
+connect_bd_net [get_bd_pins Controller_1/ifmap_YID_scan_in] [get_bd_pins PE_array_0/ifmap_YID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/filter_YID_scan_in] [get_bd_pins PE_array_0/filter_YID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/ipsum_YID_scan_in] [get_bd_pins PE_array_0/ipsum_YID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/opsum_YID_scan_in] [get_bd_pins PE_array_0/opsum_YID_scan_in]
+connect_bd_net [get_bd_pins Controller_1/set_LN] [get_bd_pins PE_array_0/set_LN]
+connect_bd_net [get_bd_pins Controller_1/LN_config_in] [get_bd_pins PE_array_0/LN_config_in]
+connect_bd_net [get_bd_pins Controller_1/PE_en] [get_bd_pins PE_array_0/PE_en]
+connect_bd_net [get_bd_pins Controller_1/PE_config] [get_bd_pins PE_array_0/PE_config]
+connect_bd_net [get_bd_pins Controller_1/ifmap_tag_X] [get_bd_pins PE_array_0/ifmap_tag_Y]
+delete_bd_objs [get_bd_nets Controller_1_ifmap_tag_X]
+connect_bd_net [get_bd_pins Controller_1/ifmap_tag_X] [get_bd_pins PE_array_0/ifmap_tag_X]
+connect_bd_net [get_bd_pins Controller_1/ifmap_tag_Y] [get_bd_pins PE_array_0/ifmap_tag_Y]
+connect_bd_net [get_bd_pins Controller_1/filter_tag_X] [get_bd_pins PE_array_0/filter_tag_X]
+connect_bd_net [get_bd_pins Controller_1/filter_tag_Y] [get_bd_pins PE_array_0/filter_tag_Y]
+connect_bd_net [get_bd_pins Controller_1/ipsum_tag_X] [get_bd_pins PE_array_0/ipsum_tag_X]
+connect_bd_net [get_bd_pins Controller_1/ipsum_tag_Y] [get_bd_pins PE_array_0/ipsum_tag_Y]
+connect_bd_net [get_bd_pins Controller_1/opsum_tag_X] [get_bd_pins PE_array_0/opsum_tag_X]
+connect_bd_net [get_bd_pins Controller_1/opsum_tag_Y] [get_bd_pins PE_array_0/opsum_tag_Y]
+connect_bd_net [get_bd_pins Controller_1/GLB_ifmap_valid] [get_bd_pins PE_array_0/GLB_ifmap_valid]
+connect_bd_net [get_bd_pins Controller_1/GLB_filter_valid] [get_bd_pins PE_array_0/GLB_filter_valid]
+connect_bd_net [get_bd_pins Controller_1/GLB_ipsum_valid] [get_bd_pins PE_array_0/GLB_ipsum_valid]
+connect_bd_net [get_bd_pins Controller_1/GLB_data_in] [get_bd_pins PE_array_0/GLB_data_in]
+connect_bd_net [get_bd_pins Controller_1/GLB_opsum_ready] [get_bd_pins PE_array_0/GLB_opsum_ready]
+connect_bd_net [get_bd_pins axi_gpio_0/gpio_io_o] [get_bd_pins Controller_1/req]
+connect_bd_net [get_bd_pins axi_gpio_1/gpio_io_o] [get_bd_pins Controller_1/XID]
+connect_bd_net [get_bd_pins Controller_1/ack] [get_bd_pins axi_gpio_2/gpio_io_i]
+delete_bd_objs [get_bd_nets PE_array_0_ifmap_XID_debug_XID]
+connect_bd_net [get_bd_pins Controller_1/ack] [get_bd_pins axi_gpio_5/gpio_io_i]
+delete_bd_objs [get_bd_nets Controller_1_ack]
+connect_bd_net [get_bd_pins axi_gpio_2/gpio_io_i] [get_bd_pins Controller_1/ack]
+connect_bd_net [get_bd_pins axi_gpio_5/gpio_io_i] [get_bd_pins Controller_1/cs]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:board -config { Board_Interface {arduino_a0_a5 ( Arduino Pins A0 through A5 J1 ) } Manual_Source {Auto}}  [get_bd_intf_pins axi_gpio_9/GPIO]
+apply_bd_automation -rule xilinx.com:bd_rule:clkrst -config { Clk {/processing_system7_0/FCLK_CLK0 (100 MHz)} Freq {100} Ref_Clk0 {} Ref_Clk1 {} Ref_Clk2 {}}  [get_bd_pins Controller_1/clk]
+endgroup
+regenerate_bd_layout
+delete_bd_objs [get_bd_intf_nets axi_gpio_9_GPIO] [get_bd_intf_ports arduino_a0_a5]
+startgroup
+set_property -dict [list \
+  CONFIG.C_ALL_INPUTS {0} \
+  CONFIG.C_ALL_OUTPUTS {1} \
+  CONFIG.C_GPIO_WIDTH {32} \
+  CONFIG.GPIO_BOARD_INTERFACE {Custom} \
+] [get_bd_cells axi_gpio_9]
+endgroup
+connect_bd_net [get_bd_pins axi_gpio_11/gpio_io_o] [get_bd_pins Controller_1/YLD]
+delete_bd_objs [get_bd_nets axi_gpio_11_gpio_io_o]
+connect_bd_net [get_bd_pins axi_gpio_6/gpio_io_o] [get_bd_pins Controller_1/YLD]
+connect_bd_net [get_bd_pins axi_gpio_7/gpio_io_o] [get_bd_pins Controller_1/LN]
+connect_bd_net [get_bd_pins axi_gpio_12/gpio_io_o] [get_bd_pins Controller_1/PE0]
+connect_bd_net [get_bd_pins axi_gpio_9/gpio_io_o] [get_bd_pins Controller_1/PE1]
+connect_bd_net [get_bd_pins axi_gpio_8/gpio_io_o] [get_bd_pins Controller_1/tag]
+connect_bd_net [get_bd_pins axi_gpio_11/gpio_io_o] [get_bd_pins Controller_1/GLB]
+connect_bd_net [get_bd_pins axi_gpio_10/gpio_io_o] [get_bd_pins Controller_1/GLB_data]
+regenerate_bd_layout
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+regenerate_bd_layout
+validate_bd_design
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+update_module_reference design_1_Controller_1_0
+update_module_reference design_1_Controller_1_0
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets axi_gpio_6_gpio_io_o] [get_bd_nets axi_gpio_8_gpio_io_o] [get_bd_nets PE_array_0_ipsum_XID_debug_XID] [get_bd_intf_nets ps7_0_axi_periph_M06_AXI] [get_bd_intf_nets ps7_0_axi_periph_M08_AXI] [get_bd_intf_nets ps7_0_axi_periph_M03_AXI] [get_bd_intf_nets ps7_0_axi_periph_M10_AXI] [get_bd_nets Controller_1_cs] [get_bd_nets axi_gpio_7_gpio_io_o] [get_bd_nets axi_gpio_12_gpio_io_o] [get_bd_nets axi_gpio_0_gpio_io_o] [get_bd_intf_nets ps7_0_axi_periph_M11_AXI] [get_bd_intf_nets ps7_0_axi_periph_M12_AXI] [get_bd_nets PE_array_0_filter_XID_debug_XID] [get_bd_intf_nets ps7_0_axi_periph_M07_AXI] [get_bd_intf_nets ps7_0_axi_periph_M09_AXI] [get_bd_nets axi_gpio_1_gpio_io_o] [get_bd_intf_nets ps7_0_axi_periph_M02_AXI] [get_bd_nets Controller_1_ack] [get_bd_intf_nets ps7_0_axi_periph_M04_AXI] [get_bd_intf_nets ps7_0_axi_periph_M05_AXI] [get_bd_nets axi_gpio_9_gpio_io_o] [get_bd_nets axi_gpio_10_gpio_io_o] [get_bd_nets axi_gpio_11_gpio_io_o] [get_bd_intf_nets ps7_0_axi_periph_M00_AXI] [get_bd_intf_nets ps7_0_axi_periph_M01_AXI] [get_bd_cells axi_gpio_6] [get_bd_cells axi_gpio_7] [get_bd_cells axi_gpio_8] [get_bd_cells axi_gpio_9] [get_bd_cells axi_gpio_0] [get_bd_cells axi_gpio_1] [get_bd_cells axi_gpio_2] [get_bd_cells axi_gpio_3] [get_bd_cells axi_gpio_4] [get_bd_cells axi_gpio_10] [get_bd_cells axi_gpio_11] [get_bd_cells axi_gpio_5] [get_bd_cells axi_gpio_12]
+startgroup
+set_property CONFIG.NUM_MI {1} [get_bd_cells ps7_0_axi_periph]
+endgroup
+regenerate_bd_layout
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_module_reference design_1_Controller_1_0
+update_module_reference design_1_Controller_1_0
+update_compile_order -fileset sources_1
+startgroup
+connect_bd_net [get_bd_pins PE_array_0/GLB_data_out] [get_bd_pins Controller_1/GLB_data_out]
+endgroup
+connect_bd_net [get_bd_pins PE_array_0/GLB_opsum_valid] [get_bd_pins Controller_1/GLB_opsum_valid]
+connect_bd_net [get_bd_pins PE_array_0/GLB_ipsum_ready] [get_bd_pins Controller_1/GLB_ipsum_ready]
+connect_bd_net [get_bd_pins PE_array_0/GLB_filter_ready] [get_bd_pins Controller_1/GLB_filter_ready]
+connect_bd_net [get_bd_pins PE_array_0/GLB_ifmap_ready] [get_bd_pins Controller_1/GLB_ifmap_ready]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_0
+endgroup
+set_property location {2.5 804 171} [get_bd_cells axi_gpio_0]
+set_property -dict [list \
+  CONFIG.C_ALL_OUTPUTS {1} \
+  CONFIG.C_GPIO_WIDTH {7} \
+] [get_bd_cells axi_gpio_0]
+set_property CONFIG.C_GPIO_WIDTH {8} [get_bd_cells axi_gpio_0]
+connect_bd_net [get_bd_pins axi_gpio_0/gpio_io_o] [get_bd_pins Controller_1/req]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+set_property location {3 858 338} [get_bd_cells axi_gpio_1]
+set_property location {3 821 370} [get_bd_cells axi_gpio_1]
+set_property CONFIG.C_GPIO_WIDTH {32} [get_bd_cells axi_gpio_1]
+connect_bd_net [get_bd_pins axi_gpio_1/gpio_io_o] [get_bd_pins Controller_1/cpu_ctrl]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+set_property CONFIG.C_GPIO_WIDTH {32} [get_bd_cells axi_gpio_2]
+set_property location {3 855 655} [get_bd_cells axi_gpio_2]
+connect_bd_net [get_bd_pins axi_gpio_2/gpio_io_o] [get_bd_pins Controller_1/cpu_data]
+regenerate_bd_layout
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_0/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_0/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_1/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_1/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_2/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_2/S_AXI]
+endgroup
+regenerate_bd_layout
+update_module_reference design_1_PE_array_0_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_3
+endgroup
+set_property location {3 1367 1583} [get_bd_cells axi_gpio_3]
+set_property CONFIG.C_ALL_INPUTS {1} [get_bd_cells axi_gpio_3]
+copy_bd_objs /  [get_bd_cells {axi_gpio_3}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_3}]
+set_property location {3 1387 1699} [get_bd_cells axi_gpio_4]
+set_property location {3 1348 1919} [get_bd_cells axi_gpio_5]
+connect_bd_net [get_bd_pins Controller_1/ack] [get_bd_pins axi_gpio_3/gpio_io_i]
+connect_bd_net [get_bd_pins Controller_1/acc_ctrl] [get_bd_pins axi_gpio_4/gpio_io_i]
+connect_bd_net [get_bd_pins Controller_1/acc_data] [get_bd_pins axi_gpio_5/gpio_io_i]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_3/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_3/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_4/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_4/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_5/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_5/S_AXI]
+endgroup
+update_module_reference design_1_PE_array_0_1
+copy_bd_objs /  [get_bd_cells {axi_gpio_5}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_5}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_5}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_5}]
+set_property location {4 1703 -12} [get_bd_cells axi_gpio_6]
+connect_bd_net [get_bd_pins PE_array_0/debug0] [get_bd_pins axi_gpio_6/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug1] [get_bd_pins axi_gpio_7/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug2] [get_bd_pins axi_gpio_8/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug4] [get_bd_pins axi_gpio_9/gpio_io_i]
+copy_bd_objs /  [get_bd_cells {axi_gpio_6 axi_gpio_7 axi_gpio_8 axi_gpio_9}]
+set_property location {5 2302 90} [get_bd_cells axi_gpio_10]
+set_property location {5 2254 197} [get_bd_cells axi_gpio_11]
+set_property location {5 2306 299} [get_bd_cells axi_gpio_12]
+delete_bd_objs [get_bd_nets PE_array_0_debug4]
+connect_bd_net [get_bd_pins PE_array_0/debug3] [get_bd_pins axi_gpio_9/s_axi_aclk]
+delete_bd_objs [get_bd_nets PE_array_0_debug3]
+connect_bd_net [get_bd_pins PE_array_0/debug3] [get_bd_pins axi_gpio_9/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug4] [get_bd_pins axi_gpio_10/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug5] [get_bd_pins axi_gpio_11/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug6] [get_bd_pins axi_gpio_12/gpio_io_i]
+connect_bd_net [get_bd_pins PE_array_0/debug7] [get_bd_pins axi_gpio_13/gpio_io_i]
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_6/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_6/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_7/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_7/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_8/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_8/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_9/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_9/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_10/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_10/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_11/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_11/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_12/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_12/S_AXI]
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_13/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_13/S_AXI]
+endgroup
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+validate_bd_design
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {50} [get_bd_cells processing_system7_0]
+endgroup
+startgroup
+endgroup
+regenerate_bd_layout
+validate_bd_design
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run design_1_processing_system7_0_0_synth_1
+reset_run design_1_rst_ps7_0_100M_0_synth_1
+reset_run design_1_xbar_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_runs impl_1 -jobs 16
+wait_on_run impl_1
+close_design
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/FPGA/PE_array/project_1/design_1_wrapper.xsa
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+update_module_reference design_1_Controller_1_0
+update_module_reference design_1_PE_array_0_1
+export_ip_user_files -of_objects  [get_files d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top design_1_wrapper [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1

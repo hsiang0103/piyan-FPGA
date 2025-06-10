@@ -1,0 +1,104 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.546203",
+   "Default View_TopLeft":"882,176",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 2300 -y 2380 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 2300 -y 2400 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 230 -y 1690 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 610 -y 2430 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 230 -y 1910 -defaultsOSRD
+preplace inst Controller_1 -pg 1 -lvl 4 -x 1840 -y 1060 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -x 1300 -y 1750 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 3 -x 1300 -y 80 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 3 -x 1300 -y 360 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 3 -x 1300 -y 220 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 3 -x 1300 -y 2760 -defaultsOSRD
+preplace inst axi_gpio_5 -pg 1 -lvl 3 -x 1300 -y 2900 -defaultsOSRD
+preplace inst axi_gpio_6 -pg 1 -lvl 3 -x 1300 -y 1890 -defaultsOSRD
+preplace inst axi_gpio_7 -pg 1 -lvl 3 -x 1300 -y 2030 -defaultsOSRD
+preplace inst axi_gpio_8 -pg 1 -lvl 3 -x 1300 -y 2170 -defaultsOSRD
+preplace inst axi_gpio_9 -pg 1 -lvl 3 -x 1300 -y 2310 -defaultsOSRD
+preplace inst axi_gpio_10 -pg 1 -lvl 3 -x 1300 -y 500 -defaultsOSRD
+preplace inst axi_gpio_11 -pg 1 -lvl 3 -x 1300 -y 640 -defaultsOSRD
+preplace inst axi_gpio_12 -pg 1 -lvl 3 -x 1300 -y 2480 -defaultsOSRD
+preplace inst axi_gpio_13 -pg 1 -lvl 3 -x 1300 -y 2620 -defaultsOSRD
+preplace inst PE_array_0 -pg 1 -lvl 3 -x 1300 -y 1090 -defaultsOSRD
+preplace netloc Controller_1_acc_ctrl 1 3 2 N 2770 2060
+preplace netloc Controller_1_acc_data 1 3 2 N 2910 2210
+preplace netloc Controller_1_ack 1 3 2 NJ 230 2280
+preplace netloc axi_gpio_0_gpio_io_o 1 3 1 1640 1010n
+preplace netloc axi_gpio_1_gpio_io_o 1 3 1 1650 90n
+preplace netloc axi_gpio_2_gpio_io_o 1 3 1 1620 370n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 1800 460 1670 840 1670 1600J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 1810 430
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 440 1650 850 2390 1630
+preplace netloc Controller_1_set_XID 1 2 3 1110 750 1580J 690 2120
+preplace netloc Controller_1_ifmap_XID_scan_in 1 2 3 1100 740 1560J 680 2270
+preplace netloc Controller_1_filter_XID_scan_in 1 2 3 1010 1530 NJ 1530 2180
+preplace netloc Controller_1_ipsum_XID_scan_in 1 2 3 910 1630 NJ 1630 2270
+preplace netloc Controller_1_opsum_XID_scan_in 1 2 3 1060 1480 NJ 1480 2160
+preplace netloc Controller_1_set_YID 1 2 3 1070 1470 NJ 1470 2130
+preplace netloc Controller_1_ifmap_YID_scan_in 1 2 3 940 1600 NJ 1600 2260
+preplace netloc Controller_1_filter_YID_scan_in 1 2 3 1080 1460 NJ 1460 2090
+preplace netloc Controller_1_ipsum_YID_scan_in 1 2 3 900 1640 NJ 1640 2250
+preplace netloc Controller_1_opsum_YID_scan_in 1 2 3 1050 1490 1650J 1450 2040
+preplace netloc Controller_1_set_LN 1 2 3 950 1590 NJ 1590 2140
+preplace netloc Controller_1_LN_config_in 1 2 3 1040 1500 NJ 1500 2110
+preplace netloc Controller_1_PE_en 1 2 3 1020 1520 NJ 1520 2100
+preplace netloc Controller_1_PE_config 1 2 3 1030 1510 NJ 1510 2050
+preplace netloc Controller_1_ifmap_tag_X 1 2 3 930 1610 NJ 1610 2240
+preplace netloc Controller_1_ifmap_tag_Y 1 2 3 920 1620 NJ 1620 2230
+preplace netloc Controller_1_filter_tag_X 1 2 3 1000 1540 NJ 1540 2220
+preplace netloc Controller_1_filter_tag_Y 1 2 3 990 1550 NJ 1550 2200
+preplace netloc Controller_1_ipsum_tag_X 1 2 3 890 1650 NJ 1650 2070
+preplace netloc Controller_1_ipsum_tag_Y 1 2 3 980 1560 NJ 1560 2190
+preplace netloc Controller_1_opsum_tag_X 1 2 3 970 1570 NJ 1570 2170
+preplace netloc Controller_1_opsum_tag_Y 1 2 3 960 1580 NJ 1580 2150
+preplace netloc Controller_1_GLB_ifmap_valid 1 2 3 1100 1440 1620J 1420 2120
+preplace netloc Controller_1_GLB_filter_valid 1 2 3 880 720 1570J 700 2030
+preplace netloc Controller_1_GLB_ipsum_valid 1 2 3 1090 730 1590J 710 2080
+preplace netloc Controller_1_GLB_data_in 1 2 3 1110 1430 NJ 1430 2080
+preplace netloc Controller_1_GLB_opsum_ready 1 2 3 1090 1450 1610J 1410 2030
+preplace netloc PE_array_0_GLB_ifmap_ready 1 3 1 1590 970n
+preplace netloc PE_array_0_GLB_filter_ready 1 3 1 1580 990n
+preplace netloc PE_array_0_GLB_ipsum_ready 1 3 1 1570 1010n
+preplace netloc PE_array_0_GLB_opsum_valid 1 3 1 1560 1030n
+preplace netloc PE_array_0_GLB_data_out 1 3 1 1550 1050n
+preplace netloc PE_array_0_debug0 1 3 1 1540 1070n
+preplace netloc PE_array_0_debug1 1 3 1 1530 1090n
+preplace netloc PE_array_0_debug2 1 3 1 1520 1110n
+preplace netloc PE_array_0_debug3 1 3 1 1510 1130n
+preplace netloc PE_array_0_debug4 1 3 1 1500 510n
+preplace netloc PE_array_0_debug5 1 3 1 1490 650n
+preplace netloc PE_array_0_debug6 1 3 1 1500 1190n
+preplace netloc PE_array_0_debug7 1 3 1 1490 1210n
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 1640 880J 1660 NJ 1660 2280J
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 1660 870J 2400 NJ 2400 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 450 1700n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 810 1730n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 760 60n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 800 340n
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 780 200n
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 810 2190n
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 1 780 2210n
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 860 1870n
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 950 2010n
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 1 1110 2150n
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 N 2290
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 770 480n
+preplace netloc ps7_0_axi_periph_M11_AXI 1 2 1 790 620n
+preplace netloc ps7_0_axi_periph_M12_AXI 1 2 1 800 2350n
+preplace netloc ps7_0_axi_periph_M13_AXI 1 2 1 760 2370n
+levelinfo -pg 1 0 230 610 1300 1840 2300
+pagesize -pg 1 -db -bbox -sgen 0 0 2420 3190
+"
+}
+{
+   "da_axi4_cnt":"54",
+   "da_board_cnt":"5",
+   "da_clkrst_cnt":"5",
+   "da_ps7_cnt":"1"
+}

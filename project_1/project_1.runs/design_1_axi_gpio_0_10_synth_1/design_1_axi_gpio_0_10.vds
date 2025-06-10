@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Jun  2 22:02:28 2025
+# Process ID: 9264
+# Current directory: D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1
+# Command line: vivado.exe -log design_1_axi_gpio_0_10.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_10.tcl
+# Log file: D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1/design_1_axi_gpio_0_10.vds
+# Journal file: D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1\vivado.jou
+# Running On: DESKTOP-HEQPM12, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34128 MB
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_10.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 483.582 ; gain = 180.367
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_10
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 296fff807257132f to dir: D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/2/9/296fff807257132f/design_1_axi_gpio_0_9.dcp to D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1/design_1_axi_gpio_0_10.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/2/9/296fff807257132f/design_1_axi_gpio_0_9_sim_netlist.v to D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1/design_1_axi_gpio_0_10_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/2/9/296fff807257132f/design_1_axi_gpio_0_9_sim_netlist.vhdl to D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1/design_1_axi_gpio_0_10_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/2/9/296fff807257132f/design_1_axi_gpio_0_9_stub.v to D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1/design_1_axi_gpio_0_10_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/2/9/296fff807257132f/design_1_axi_gpio_0_9_stub.vhdl to D:/FPGA/PE_array/project_1/project_1.runs/design_1_axi_gpio_0_10_synth_1/design_1_axi_gpio_0_10_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_axi_gpio_0_10, cache-ID = 296fff807257132f.
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  2 22:02:38 2025...

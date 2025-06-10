@@ -1,0 +1,442 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jun  1 22:44:25 2025
+# Process ID: 8400
+# Current directory: D:/FPGA/PE_array/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17008 D:\FPGA\PE_array\project_1\project_1.xpr
+# Log file: D:/FPGA/PE_array/project_1/vivado.log
+# Journal file: D:/FPGA/PE_array/project_1\vivado.jou
+# Running On: DESKTOP-HEQPM12, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 34128 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA/PE_array/project_1/project_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 1555.973 ; gain = 390.109
+update_compile_order -fileset sources_1
+open_bd_design {D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:module_ref:PE_array:1.0 - PE_array_0
+Adding component instance block -- xilinx.com:module_ref:Controller:1.0 - Controller_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_2
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_3
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_4
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_5
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_6
+Successfully read diagram <design_1> from block design file <D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1671.508 ; gain = 85.176
+launch_runs synth_1 -jobs 16
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/Controller_0/LN
+/Controller_0/PE0
+/Controller_0/PE1
+/Controller_0/tag
+/Controller_0/GLB
+/Controller_0/GLB_data
+
+Wrote  : <D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PE_array_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Controller_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_6 .
+Exporting to file d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_Controller_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_PE_array_0_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_xbar_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_Controller_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_PE_array_0_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry aafa9c5f512d2bb2 to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/a/a/aafa9c5f512d2bb2/design_1_PE_array_0_1.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/a/a/aafa9c5f512d2bb2/design_1_PE_array_0_1_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/a/a/aafa9c5f512d2bb2/design_1_PE_array_0_1_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/a/a/aafa9c5f512d2bb2/design_1_PE_array_0_1_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/a/a/aafa9c5f512d2bb2/design_1_PE_array_0_1_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_PE_array_0_1/design_1_PE_array_0_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_PE_array_0_1, cache-ID = aafa9c5f512d2bb2; cache size = 22.216 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 73a706d95f61f16c to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 73a706d95f61f16c; cache size = 22.216 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_1_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_1_0, cache-ID = f87661751c31520b; cache size = 22.216 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_xbar_0
+[Sun Jun  1 22:45:24 2025] Launched design_1_Controller_0_0_synth_1, design_1_xbar_0_synth_1...
+Run output will be captured here:
+design_1_Controller_0_0_synth_1: D:/FPGA/PE_array/project_1/project_1.runs/design_1_Controller_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: D:/FPGA/PE_array/project_1/project_1.runs/design_1_xbar_0_synth_1/runme.log
+[Sun Jun  1 22:45:24 2025] Launched synth_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1987.238 ; gain = 280.617
+launch_runs impl_1 -jobs 16
+[Sun Jun  1 22:47:21 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sun Jun  1 22:48:57 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/impl_1/runme.log
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+copy_bd_objs /  [get_bd_cells {axi_gpio_0}]
+connect_bd_net [get_bd_pins axi_gpio_12/gpio_io_o] [get_bd_pins Controller_0/GLB_data]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_12/gpio_io_o> is being overridden by the user with net <axi_gpio_12_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+connect_bd_net [get_bd_pins axi_gpio_11/gpio_io_o] [get_bd_pins Controller_0/GLB]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_11/gpio_io_o> is being overridden by the user with net <axi_gpio_11_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+set_property location {5 2027 -275} [get_bd_cells Controller_0]
+connect_bd_net [get_bd_pins axi_gpio_7/gpio_io_o] [get_bd_pins Controller_0/LN]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_7/gpio_io_o> is being overridden by the user with net <axi_gpio_7_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+connect_bd_net [get_bd_pins axi_gpio_8/gpio_io_o] [get_bd_pins Controller_0/PE0]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_8/gpio_io_o> is being overridden by the user with net <axi_gpio_8_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+connect_bd_net [get_bd_pins axi_gpio_9/gpio_io_o] [get_bd_pins Controller_0/PE1]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_9/gpio_io_o> is being overridden by the user with net <axi_gpio_9_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+connect_bd_net [get_bd_pins axi_gpio_10/gpio_io_o] [get_bd_pins Controller_0/tag]
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_10/gpio_io_o> is being overridden by the user with net <axi_gpio_10_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>.
+regenerate_bd_layout
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+WARNING: [IP_Flow 19-240] Unknown architecture 'versal' detected.
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_7/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_7/S_AXI]
+Slave segment '/axi_gpio_7/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4127_0000 [ 64K ]>.
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_8/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_8/S_AXI]
+Slave segment '/axi_gpio_8/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4128_0000 [ 64K ]>.
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_9/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_9/S_AXI]
+Slave segment '/axi_gpio_9/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x4129_0000 [ 64K ]>.
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_10/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_10/S_AXI]
+Slave segment '/axi_gpio_10/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x412A_0000 [ 64K ]>.
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_11/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_11/S_AXI]
+Slave segment '/axi_gpio_11/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x412B_0000 [ 64K ]>.
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/processing_system7_0/FCLK_CLK0 (100 MHz)} Clk_slave {Auto} Clk_xbar {/processing_system7_0/FCLK_CLK0 (100 MHz)} Master {/processing_system7_0/M_AXI_GP0} Slave {/axi_gpio_12/S_AXI} ddr_seg {Auto} intc_ip {/ps7_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_12/S_AXI]
+Slave segment '/axi_gpio_12/S_AXI/Reg' is being assigned into address space '/processing_system7_0/Data' at <0x412C_0000 [ 64K ]>.
+endgroup
+export_ip_user_files -of_objects  [get_files D:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+make_wrapper -files [get_files D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd] -top
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/processing_system7_0' with propagated value(100). Command ignored
+Wrote  : <D:\FPGA\PE_array\project_1\project_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2037.984 ; gain = 0.000
+add_files -norecurse d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+update_compile_order -fileset sources_1
+set_property top design_1_wrapper [current_fileset]
+update_compile_order -fileset sources_1
+reset_run design_1_xbar_0_synth_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/FPGA/PE_array/project_1/project_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file D:/FPGA/PE_array/project_1/project_1.runs/synth_1/design_1_wrapper.dcp
+launch_runs synth_1 -jobs 16
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <D:/FPGA/PE_array/project_1/project_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_12 .
+Exporting to file d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_3
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_4
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_5
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_6
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_gpio_0_7
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_xbar_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 73a706d95f61f16c to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/7/3/73a706d95f61f16c/design_1_auto_pc_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = 73a706d95f61f16c; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_2, cache-ID = f87661751c31520b; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_3
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_3/design_1_axi_gpio_0_3_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_3, cache-ID = f87661751c31520b; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_4
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_4/design_1_axi_gpio_0_4_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_4, cache-ID = f87661751c31520b; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_5
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_5/design_1_axi_gpio_0_5_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_5, cache-ID = f87661751c31520b; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_6
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_6/design_1_axi_gpio_0_6_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_6, cache-ID = f87661751c31520b; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_gpio_0_7
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry f87661751c31520b to dir: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0.dcp to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_sim_netlist.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.v to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/FPGA/PE_array/project_1/project_1.cache/ip/2023.2/f/8/f87661751c31520b/design_1_axi_gpio_0_0_stub.vhdl to d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/FPGA/PE_array/project_1/project_1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_7/design_1_axi_gpio_0_7_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_axi_gpio_0_7, cache-ID = f87661751c31520b; cache size = 22.974 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_xbar_0
+[Sun Jun  1 22:54:24 2025] Launched design_1_xbar_0_synth_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/design_1_xbar_0_synth_1/runme.log
+[Sun Jun  1 22:54:24 2025] Launched synth_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2109.340 ; gain = 24.816
+launch_runs impl_1 -jobs 16
+[Sun Jun  1 22:56:04 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sun Jun  1 22:57:53 2025] Launched impl_1...
+Run output will be captured here: D:/FPGA/PE_array/project_1/project_1.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  1 22:59:04 2025...
